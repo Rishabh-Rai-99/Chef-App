@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig(({ mode }) => ({
   plugins: [react(), tailwindcss()],
-  base: "/Chef-Claude",
+  base: "/Chef-App",
   define: {
     'import.meta.env.VITE_HF_ACCESS_TOKEN': mode === 'development' 
       ? `"${process.env.VITE_HF_ACCESS_TOKEN}"` 
