@@ -6,6 +6,6 @@ export default defineConfig(({ mode }) => ({
   plugins: [react(), tailwindcss()],
   base: "/Chef-App",
   define: {
-    'import.meta.env.VITE_HF_ACCESS_TOKEN': `"your_api_key_here"`
+    'import.meta.env.VITE_HF_ACCESS_TOKEN': `"${process.env.VITE_HF_ACCESS_TOKEN}"`
   }
 }));
