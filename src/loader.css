@@ -1,0 +1,35 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.chef-hat {
+    width: 50px;
+    height: 50px;
+    background: url('https://cdn-icons-png.flaticon.com/512/3075/3075977.png') no-repeat center/cover;
+    animation: spin 1.5s linear infinite;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d2691e;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}

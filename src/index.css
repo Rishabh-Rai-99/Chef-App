@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.suggested-recipe-container ul li, .suggested-recipe-container ol li {
+    margin: 12px;
+    font-size: 15px;
+    list-style:disc;
+}
+.markdown-styles h3,h4,h5{
+    color:black;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.markdown-styles p{
+    margin-top: 12px;
+}
+
+body{
+    font-family: "Inter", serif;
+}
+
+@import "tailwindcss";
+
